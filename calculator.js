@@ -1,6 +1,6 @@
 var total = 0;
 var numberOfPeople = 0;
-var serviceSatisfaction = .20;
+var serviceSatisfaction = 'Service was good';
 
 // This listens the the form submit event and calls showTip
 document.getElementById('calculatorForm').addEventListener('submit', showTip);
