@@ -10,10 +10,10 @@ document.querySelector('input[name=total]').addEventListener('change', function(
     total = parseFloat(event.target.value);
 });
 document.querySelector('input[name=numPeople]').addEventListener('change', function(event) {
-    total = parseFloat(event.target.value);
+    numberOfPeople = parseFloat(event.target.value);
 });
 document.querySelector('select[name=serviceSatisfaction]').addEventListener('change', function(event) {
-    total = parseFloat(event.target.value);
+    serviceSatisfaction = event.target.value;
 });
 
 function showTip(event) {
