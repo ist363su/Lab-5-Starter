@@ -18,9 +18,9 @@ document.querySelector('select[name=serviceSatisfaction]').addEventListener('cha
 
 function showTip(event) {
     event.preventDefault();
-    tipAmount = 0;
+    var tipAmount = 0;
 
-    // You JavaScript Code will go here!
+    // Your JavaScript Code will go here!
 
     document.getElementById('tipAmount').innerHTML = 'Each person needs to contribute $' + tipAmount.toString();
     return false;
